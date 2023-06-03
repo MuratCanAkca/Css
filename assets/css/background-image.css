@@ -1,0 +1,11 @@
+.banner{
+    height: 500px;
+    background-image: url(../img/Ekran\ görüntüsü\ 2023-05-03\ 155902.png);
+   /*  background-repeat:no-repeat;
+    background-position: center bottom;
+    background-size: 250px 250px;
+    border: 1px solid red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

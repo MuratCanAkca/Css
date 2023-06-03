@@ -1,0 +1,36 @@
+body{
+    padding: 30px;
+}
+.container{
+    background-color: gray;
+     position: relative; 
+    /*burası işte buraya dikkat et kırmızı yıldızlı yer*/
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    left:0;
+    top: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+.box3{
+    background-color:green;
+    position: relative;
+    top: -30px;
+}
+.box4{
+    background-color: orange;
+    position: absolute;
+   /*  margin-top: 10px; */
+   bottom: 20px;
+   right: 30px;
+  
+}

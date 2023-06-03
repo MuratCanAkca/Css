@@ -1,0 +1,28 @@
+:root{
+    --purple: #48335e;
+    --acail: #b6adbf;
+}
+*{
+    font-family: 'Darumadrop One', cursive;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: "🔥";
+}
+ul.menu{
+    margin-left: 0;
+    margin-right: auto;
+}
+a.link:hover{
+    background-color: var(--purple);
+}
+nav.menu{
+    background-color: lightgray ;
+    width: 30vw;
+}
+a.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+a.link:visited{
+    color: black;
+}

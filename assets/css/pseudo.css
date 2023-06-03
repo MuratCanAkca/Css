@@ -1,0 +1,50 @@
+a{
+    color: green;
+}
+a:active{
+    background-color: brown;
+    color: antiquewhite;
+}
+.form-e1{
+    background-color: rgb(198, 185, 185);
+}
+.form-e1:focus{
+    background-color: aqua;
+    outline: none;
+}
+.form-e1:checked{
+    outline: 3px solid red;
+}
+ul li{
+    background-color: aqua;
+    margin: 5px;
+}
+ul li:first-child{
+    background-color: blueviolet;
+}
+ul li:last-child{
+    background-color:brown;
+}
+ul li:nth-child(3){
+    background-color: chartreuse;
+}
+.article::selection{
+    background-color: greenyellow;
+    color: coral;
+}
+ul li::marker{
+    color: palevioletred;
+}
+ul li:hover::marker{
+    color: aqua;
+}
+em::before{
+    content: "[";
+    color: red;
+    background-color: aqua;
+}
+em::after{
+  content:   "]";
+  color: rebeccapurple;
+  background-color: aquamarine;
+}
